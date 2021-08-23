@@ -1,0 +1,42 @@
+---
+layout: about
+---
+
+<section class="about-page-content">
+
+  <div class="about-main">
+    <div class="about-author">
+      <div class="author-profile">
+        {% if site.author.profile_picture %}
+        <img id="author-img" src="{{ site.author.profile_picture }}" alt="User Profile Picture">
+        {% else %}
+        <img id="author-img" src="{{ site.url }}{{ site.baseurl }}/assets/img/author.jpg" alt="User Profile Picture">
+        {% endif %}
+        <h3 id="author-name">{{ site.author.name }}</h3>
+        <p id="author-username">
+          <strong>Username: </strong><code> {{ site.author.username }}</code>
+        </p>
+        <p id="author-bio">
+          <strong>Bio: </strong>
+          <p>{{ site.author.bio }}</p>
+
+        </p>
+      </div>
+
+      <div id="author-info">
+        <h5 id="about-bio">
+          › About ‹
+        </h5>
+          
+        <p id="author-about-text">
+          <strong></strong>
+          {{ site.author.about_text }}
+        </p>
+
+
+        
+      </div>
+    </div>
+  </div>
+
+</section>
