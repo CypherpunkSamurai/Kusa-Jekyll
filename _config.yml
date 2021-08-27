@@ -23,10 +23,10 @@ author:
 greetings:  Hi 👋
 
 
-#url: "https://cypherpunksamurai.github.io" # main hosting url
-url: "http://localhost:4000" # localhost debug
-#baseurl: "/Kusa-Jekyll" # default to "". use only if blog is hosted in subdirectory on the server
-baseurl: "" # localhost debug
+url: "https://cypherpunksamurai.github.io" # main hosting url
+#url: "http://localhost:4000" # localhost debug
+baseurl: "/Kusa-Jekyll" # default to "". use only if blog is hosted in subdirectory on the server
+# baseurl: "" # localhost debug
 permalink: pretty
 
 
