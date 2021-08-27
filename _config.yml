@@ -23,10 +23,15 @@ author:
 greetings:  Hi 👋
 
 
-url: "https://cypherpunksamurai.github.io" # main hosting url
-baseurl: "/Kusa-Jekyll" # default to "". use only if blog is hosted in subdirectory on the server
+#url: "https://cypherpunksamurai.github.io" # main hosting url
+url: "http://localhost:4000" # localhost debug
+#baseurl: "/Kusa-Jekyll" # default to "". use only if blog is hosted in subdirectory on the server
+baseurl: "" # localhost debug
 permalink: pretty
 
+
+tag_page_layout: tag
+tag_page_dir: tag
 
 
 
@@ -55,6 +60,7 @@ sass:
 
 plugins:
   - jekyll-paginate
+  #- jekyll-tagging
   - jekyll-sitemap
   - jekyll-relative-links
 

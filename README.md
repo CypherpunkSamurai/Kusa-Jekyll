@@ -11,6 +11,8 @@ So i decided to create Kusa.
 ### Features
 - [x] **New Green Theme**
 - [x] **New About Page**
+- [x] **New All Tags Page**
+- [x] **Auto Tagging**
 - [x] Responsive Design
 - [x] Dark/Ligh theme 🌗
 - [x] Inline CSS

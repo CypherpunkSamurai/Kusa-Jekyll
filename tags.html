@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+
+
+<section class="posts">
+  <div class="flex-row-between">
+    <h1>Tags #{{page.tag}}</h1>
+    <a href="{{ site.url }}{{ site.baseurl }}/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+  </div>
+
+  {% assign sorted_tags = site.tags | sort %}
+  <ul class="posts" style="display: block;">
+    {% for tag in sorted_tags %}
+        {% assign t = tag | first %}
+        {% assign posts = tag | last %}
+      <li>
+        <a class="posts" href="{{ site.url }}{{ site.baseurl }}/tag/{{ t }}/">{{ t }} <span class="tag-posts-num">({{ posts.size }})</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</section>

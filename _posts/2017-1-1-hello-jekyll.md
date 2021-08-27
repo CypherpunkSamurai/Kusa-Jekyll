@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Applying the active class for the current page in Jekyll
-description: How to apply the active class for the current page in Jekyll
-summary: How to apply the active class for the current page in Jekyll.
-tags: coding jekyll
-minute: 2
+title: Hello Jekyll
+description: Hello Jekyll
+summary: Hello Jekyll
+tags: jekyll coding
+minute: 1
 ---
-
 
 Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.
 
