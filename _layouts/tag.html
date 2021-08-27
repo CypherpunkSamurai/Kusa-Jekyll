@@ -21,15 +21,17 @@ layout: default
 
 <section class="tags">
   <h2>All tags:</h2>
-  {% assign tags = site.tags | sort %}
-  {% for tag in tags %}
-  <ul>
+
+
+{% assign sorted_tags = site.tags | sort %}
+<ul class="posts" style="display: block;">
+  {% for tag in sorted_tags %}
+      {% assign t = tag | first %}
+      {% assign posts = tag | last %}
     <li>
-      <a class="posts" href=" {{ site.url }}{{ site.baseurl }}/tag/{{ tag | first | slugify }}/">{{ tag[0] | replace:'-', ' '
-        }} ({{ tag | last | size
-        }}){% unless forloop.last %}, {% endunless %}
-        {% endfor %}
-      </a>
+      <a class="posts" href="{{ site.url }}{{ site.baseurl }}/tag/{{ t }}/">{{ t }} <span class="tag-posts-num">({{ posts.size }})</a>
     </li>
-  </ul>
+  {% endfor %}
+</ul>
+
 </section>
