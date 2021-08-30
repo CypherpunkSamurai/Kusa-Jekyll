@@ -78,3 +78,23 @@
 .highlight .ss {
   color: #859900;
 }
+
+
+
+/* Kusa Specific */
+
+/*Make text overflow*/
+
+.highlighter-rouge  code * {
+    white-space: nowrap;
+}
+
+.highlighter-rouge pre {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--light-text-color) var(--code-bg-color);
+}
+
+.highlighter-rouge pre code {
+    white-space: pre;
+}
