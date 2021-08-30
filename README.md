@@ -9,6 +9,7 @@ I liked the Gesko theme, but the theme had issues. And i wanted a different colo
 So i decided to create Kusa.
 
 ### Features
+- [x] **Now uses Play and Source Code Pro fonts**
 - [x] **New Green Theme**
 - [x] **New About Page**
 - [x] **New All Tags Page**

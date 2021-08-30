@@ -103,6 +103,7 @@ html[data-theme="dark"] {
 	--highlight-text-color: #6cb4a0;
 	--dark-text-color: rgb(36, 38, 42);
 	--link-color: rgb(90, 130, 50);
+	
 	--code-bg-color: rgb(36, 38, 42);
 	background-color: rgb(19, 20, 24);
 
@@ -155,7 +156,7 @@ html[data-theme="dark"] {
 }
 
 body {
-	font-family: "Fira Code", monospace;
+	font-family: "Play", monospace;
 	text-rendering: optimizeLegibility;
 	line-height: 1.75;
 	color: var(--main-text-color);
@@ -183,6 +184,7 @@ pre {
 }
 
 code {
+	font-family: "Source Code Pro";
 	margin: unset;
 	padding: 0.1rem;
 	color: var(--highlight-text-color);
@@ -409,7 +411,7 @@ figcaption {
 }
 
 ::selection {
-background-color: #fffba0;
+background-color: #97ac94;
 color: #333;
 }
 
