@@ -69,10 +69,16 @@ tag_page_dir: tag
 
 # rendering settings
 
+# syntax_highlighter: highlightjs
+
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+# disable rogue highlighter  
+  # syntax_highlighter_opts:
+  #   disable : false
 
 
 exclude:
