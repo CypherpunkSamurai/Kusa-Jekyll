@@ -4,7 +4,7 @@
  <title>Kusa</title>
  <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/atom.xml" rel="self"/>
  <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/"/>
- <updated>2021-08-27T14:55:18+01:00</updated>
+ <updated>2021-08-30T18:00:03+01:00</updated>
  <id>https://cypherpunksamurai.github.io</id>
  <author>
    <name>Kusa</name>
@@ -68,15 +68,381 @@
    <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2017/01/01/hello-jekyll"/>
    <updated>2017-01-01T00:00:00+00:00</updated>
    <id>https://cypherpunksamurai.github.io/2017/01/01/hello-jekyll</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
+   <content type="html">&lt;h1 id=&quot;hello-jekyll-markdown-test&quot;&gt;Hello Jekyll: Markdown Test&lt;/h1&gt;
 
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#overview&quot;&gt;Overview&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#philosophy&quot;&gt;Philosophy&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#html&quot;&gt;Inline HTML&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#autoescape&quot;&gt;Automatic Escaping for Special Characters&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#block&quot;&gt;Block Elements&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#p&quot;&gt;Paragraphs and Line Breaks&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#header&quot;&gt;Headers&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#blockquote&quot;&gt;Blockquotes&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#list&quot;&gt;Lists&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#precode&quot;&gt;Code Blocks&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hr&quot;&gt;Horizontal Rules&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#span&quot;&gt;Span Elements&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#link&quot;&gt;Links&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#em&quot;&gt;Emphasis&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#code&quot;&gt;Code&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#img&quot;&gt;Images&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#misc&quot;&gt;Miscellaneous&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#backslash&quot;&gt;Backslash Escapes&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#autolink&quot;&gt;Automatic Links&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This document is itself written using Markdown; you
+can &lt;a href=&quot;/projects/markdown/syntax.text&quot;&gt;see the source for it by adding ‘.text’ to the URL&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;h3 id=&quot;philosophy&quot;&gt;Philosophy&lt;/h3&gt;
+
+&lt;p&gt;Markdown is intended to be as easy-to-read and easy-to-write as is feasible.&lt;/p&gt;
+
+&lt;p&gt;Readability, however, is emphasized above all else. A Markdown-formatted
+document should be publishable as-is, as plain text, without looking
+like it’s been marked up with tags or formatting instructions. While
+Markdown’s syntax has been influenced by several existing text-to-HTML
+filters – including &lt;a href=&quot;http://docutils.sourceforge.net/mirror/setext.html&quot;&gt;Setext&lt;/a&gt;, &lt;a href=&quot;http://www.aaronsw.com/2002/atx/&quot;&gt;atx&lt;/a&gt;, &lt;a href=&quot;http://textism.com/tools/textile/&quot;&gt;Textile&lt;/a&gt;, &lt;a href=&quot;http://docutils.sourceforge.net/rst.html&quot;&gt;reStructuredText&lt;/a&gt;,
+&lt;a href=&quot;http://www.triptico.com/software/grutatxt.html&quot;&gt;Grutatext&lt;/a&gt;, and &lt;a href=&quot;http://ettext.taint.org/doc/&quot;&gt;EtText&lt;/a&gt; – the single biggest source of
+inspiration for Markdown’s syntax is the format of plain text email.&lt;/p&gt;
+
+&lt;h2 id=&quot;block-elements&quot;&gt;Block Elements&lt;/h2&gt;
+
+&lt;h3 id=&quot;paragraphs-and-line-breaks&quot;&gt;Paragraphs and Line Breaks&lt;/h3&gt;
+
+&lt;p&gt;A paragraph is simply one or more consecutive lines of text, separated
+by one or more blank lines. (A blank line is any line that looks like a
+blank line – a line containing nothing but spaces or tabs is considered
+blank.) Normal paragraphs should not be indented with spaces or tabs.&lt;/p&gt;
+
+&lt;p&gt;The implication of the “one or more consecutive lines of text” rule is
+that Markdown supports “hard-wrapped” text paragraphs. This differs
+significantly from most other text-to-HTML formatters (including Movable
+Type’s “Convert Line Breaks” option) which translate every line break
+character in a paragraph into a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
+
+&lt;p&gt;When you &lt;em&gt;do&lt;/em&gt; want to insert a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;br /&amp;gt;&lt;/code&gt; break tag using Markdown, you
+end a line with two or more spaces, then type return.&lt;/p&gt;
+
+&lt;h3 id=&quot;headers&quot;&gt;Headers&lt;/h3&gt;
+
+&lt;p&gt;Markdown supports two styles of headers, [Setext] [1] and [atx] [2].&lt;/p&gt;
+
+&lt;p&gt;Optionally, you may “close” atx-style headers. This is purely
+cosmetic – you can use this if you think it looks better. The
+closing hashes don’t even need to match the number of hashes
+used to open the header. (The number of opening hashes
+determines the header level.)&lt;/p&gt;
+
+&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
+
+&lt;p&gt;Markdown uses email-style &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; characters for blockquoting. If you’re
+familiar with quoting passages of text in an email message, then you
+know how to create a blockquote in Markdown. It looks best if you hard
+wrap the text and put a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; before every line:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
+
+  &lt;p&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Markdown allows you to be lazy and only put the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; before the first
+line of a hard-wrapped paragraph:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by
+adding additional levels of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is the first level of quoting.&lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;This is nested blockquote.&lt;/p&gt;
+  &lt;/blockquote&gt;
+
+  &lt;p&gt;Back to the first level.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Blockquotes can contain other Markdown elements, including headers, lists,
+and code blocks:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h2 id=&quot;this-is-a-header&quot;&gt;This is a header.&lt;/h2&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;This is the first list item.&lt;/li&gt;
+    &lt;li&gt;This is the second list item.&lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;p&gt;Here’s some example code:&lt;/p&gt;
+
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;return shell_exec(&quot;echo $input | $markdown_script&quot;);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Any decent text editor should make email-style quoting easy. For
+example, with BBEdit, you can make a selection and choose Increase
+Quote Level from the Text menu.&lt;/p&gt;
+
+&lt;h3 id=&quot;lists&quot;&gt;Lists&lt;/h3&gt;
+
+&lt;p&gt;Markdown supports ordered (numbered) and unordered (bulleted) lists.&lt;/p&gt;
+
+&lt;p&gt;Unordered lists use asterisks, pluses, and hyphens – interchangably
+– as list markers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Red&lt;/li&gt;
+  &lt;li&gt;Green&lt;/li&gt;
+  &lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;is equivalent to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Red&lt;/li&gt;
+  &lt;li&gt;Green&lt;/li&gt;
+  &lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Red&lt;/li&gt;
+  &lt;li&gt;Green&lt;/li&gt;
+  &lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ordered lists use numbers followed by periods:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Bird&lt;/li&gt;
+  &lt;li&gt;McHale&lt;/li&gt;
+  &lt;li&gt;Parish&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It’s important to note that the actual numbers you use to mark the
+list have no effect on the HTML output Markdown produces. The HTML
+Markdown produces from the above list is:&lt;/p&gt;
+
+&lt;p&gt;If you instead wrote the list in Markdown like this:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Bird&lt;/li&gt;
+  &lt;li&gt;McHale&lt;/li&gt;
+  &lt;li&gt;Parish&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;or even:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Bird&lt;/li&gt;
+  &lt;li&gt;McHale&lt;/li&gt;
+  &lt;li&gt;Parish&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;you’d get the exact same HTML output. The point is, if you want to,
+you can use ordinal numbers in your ordered Markdown lists, so that
+the numbers in your source match the numbers in your published HTML.
+But if you want to be lazy, you don’t have to.&lt;/p&gt;
+
+&lt;p&gt;To make lists look nice, you can wrap items with hanging indents:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+viverra nec, fringilla in, laoreet vitae, risus.&lt;/li&gt;
+  &lt;li&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But if you want to be lazy, you don’t have to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+viverra nec, fringilla in, laoreet vitae, risus.&lt;/li&gt;
+  &lt;li&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;List items may consist of multiple paragraphs. Each subsequent
+paragraph in a list item must be indented by either 4 spaces
+or one tab:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;This is a list item with two paragraphs. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+mi posuere lectus.&lt;/p&gt;
+
+    &lt;p&gt;Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+sit amet velit.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It looks nice if you indent every line of the subsequent
+paragraphs, but here again, Markdown will allow you to be
+lazy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;This is a list item with two paragraphs.&lt;/p&gt;
+
+    &lt;p&gt;This is the second paragraph in the list item. You’re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Another item in the same list.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To put a blockquote within a list item, the blockquote’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;
+delimiters need to be indented:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;A list item with a blockquote:&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;This is a blockquote
+inside a list item.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To put a code block within a list item, the code block needs
+to be indented &lt;em&gt;twice&lt;/em&gt; – 8 spaces or two tabs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;A list item with a code block:&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;code goes here&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;/h3&gt;
+
+&lt;p&gt;Pre-formatted code blocks are used for writing about programming or
+markup source code. Rather than forming normal paragraphs, the lines
+of a code block are interpreted literally. Markdown wraps a code block
+in both &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;code&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
+
+&lt;p&gt;To produce a code block in Markdown, simply indent every line of the
+block by at least 4 spaces or 1 tab.&lt;/p&gt;
+
+&lt;p&gt;This is a normal paragraph:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is a code block.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here is an example of AppleScript:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tell application &quot;Foo&quot;
+    beep
+end tell
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;A code block continues until it reaches a line that is not indented
+(or the end of the article).&lt;/p&gt;
+
+&lt;p&gt;Within a code block, ampersands (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;amp;&lt;/code&gt;) and angle brackets (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;)
+are automatically converted into HTML entities. This makes it very
+easy to include example HTML source code using Markdown – just paste
+it and indent it, and Markdown will handle the hassle of encoding the
+ampersands and angle brackets. For example, this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;footer&quot;&amp;gt;
+    &amp;amp;copy; 2004 Foo Corporation
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Regular Markdown syntax is not processed within code blocks. E.g.,
+asterisks are just literal asterisks within a code block. This means
+it’s also easy to use Markdown to write about Markdown’s own syntax.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tell application &quot;Foo&quot;
+    beep
+end tell
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;span-elements&quot;&gt;Span Elements&lt;/h2&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;p&gt;Markdown supports two style of links: &lt;em&gt;inline&lt;/em&gt; and &lt;em&gt;reference&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;In both styles, the link text is delimited by [square brackets].&lt;/p&gt;
+
+&lt;p&gt;To create an inline link, use a set of regular parentheses immediately
+after the link text’s closing square bracket. Inside the parentheses,
+put the URL where you want the link to point, along with an &lt;em&gt;optional&lt;/em&gt;
+title for the link, surrounded in quotes. For example:&lt;/p&gt;
+
+&lt;p&gt;This is &lt;a href=&quot;http://example.com/&quot;&gt;an example&lt;/a&gt; inline link.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://example.net/&quot;&gt;This link&lt;/a&gt; has no title attribute.&lt;/p&gt;
+
+&lt;h3 id=&quot;emphasis&quot;&gt;Emphasis&lt;/h3&gt;
+
+&lt;p&gt;Markdown treats asterisks (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt;) and underscores (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_&lt;/code&gt;) as indicators of
+emphasis. Text wrapped with one &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_&lt;/code&gt; will be wrapped with an
+HTML &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;em&amp;gt;&lt;/code&gt; tag; double &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt;’s or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_&lt;/code&gt;’s will be wrapped with an HTML
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&lt;/code&gt; tag. E.g., this input:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;single asterisks&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;single underscores&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;double asterisks&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;double underscores&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
+
+&lt;p&gt;To indicate a span of code, wrap it with backtick quotes (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;`&lt;/code&gt;).
+Unlike a pre-formatted code block, a code span indicates code within a
+normal paragraph. For example:&lt;/p&gt;
+
+&lt;p&gt;Use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;printf()&lt;/code&gt; function.&lt;/p&gt;
 </content>
  </entry>
  
