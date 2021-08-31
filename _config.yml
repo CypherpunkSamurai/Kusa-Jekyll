@@ -48,10 +48,10 @@ author:
 
 
 # Site URL settings
-url: "https://cypherpunksamurai.github.io" # main hosting url
-baseurl: "/Kusa-Jekyll" # default to "". use only if blog is hosted in subdirectory on the server
-# url: "http://localhost:4000" # localhost debug
-# baseurl: "" # localhost debug
+# url: "https://cypherpunksamurai.github.io" # main hosting url
+# baseurl: "/Kusa-Jekyll" # default to "". use only if blog is hosted in subdirectory on the server
+url: "http://localhost:4000" # localhost debug
+baseurl: "" # localhost debug
 permalink: pretty
 
 # Auto tagging Settings
