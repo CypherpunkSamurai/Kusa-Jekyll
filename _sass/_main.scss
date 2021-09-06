@@ -831,3 +831,27 @@ $link-color: var(--link-color);
     
   }
 }
+
+
+
+
+/* Kusa Specific */
+
+/*Make text overflow*/
+
+.highlighter-rouge  code * {
+    white-space: nowrap;
+}
+
+.highlighter-rouge pre {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--light-text-color) var(--code-bg-color);
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+    white-space: pre-wrap;
+		scrollbar-width: thin;
+		scrollbar-color: var(--light-text-color) var(--code-bg-color);
+}
