@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Kusa</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2021-09-06T14:07:56+01:00</updated>
- <id>http://localhost:4000</id>
+ <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/atom.xml" rel="self"/>
+ <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/"/>
+ <updated>2021-09-06T14:09:29+01:00</updated>
+ <id>https://cypherpunksamurai.github.io</id>
  <author>
    <name>Kusa</name>
    <email>kusa-email@email.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Git Quick</title>
-   <link href="http://localhost:4000/2017/11/16/git-quick"/>
+   <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2017/11/16/git-quick"/>
    <updated>2017-11-16T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2017/11/16/git-quick</id>
+   <id>https://cypherpunksamurai.github.io/2017/11/16/git-quick</id>
    <content type="html">&lt;h1 id=&quot;git-quick&quot;&gt;Git Quick!&lt;/h1&gt;
 &lt;p&gt;In this tutorial we will learn basic to advanced uses of git versioning system.&lt;/p&gt;
 
@@ -35,9 +35,9 @@
  
  <entry>
    <title>Custom 404 page for Jekyll on Github pages</title>
-   <link href="http://localhost:4000/2017/11/15/custom-404-page-for-jekyll-on-github-pages"/>
+   <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2017/11/15/custom-404-page-for-jekyll-on-github-pages"/>
    <updated>2017-11-15T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2017/11/15/custom-404-page-for-jekyll-on-github-pages</id>
+   <id>https://cypherpunksamurai.github.io/2017/11/15/custom-404-page-for-jekyll-on-github-pages</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
 
 &lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
@@ -52,9 +52,9 @@
  
  <entry>
    <title>Redirect Jekyll URLs</title>
-   <link href="http://localhost:4000/2017/11/10/redirect-jekyll-urls"/>
+   <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2017/11/10/redirect-jekyll-urls"/>
    <updated>2017-11-10T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2017/11/10/redirect-jekyll-urls</id>
+   <id>https://cypherpunksamurai.github.io/2017/11/10/redirect-jekyll-urls</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
 
 &lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
@@ -69,9 +69,9 @@
  
  <entry>
    <title>Jekyll Quotes - Test</title>
-   <link href="http://localhost:4000/2017/11/01/quotes-test"/>
+   <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2017/11/01/quotes-test"/>
    <updated>2017-11-01T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2017/11/01/quotes-test</id>
+   <id>https://cypherpunksamurai.github.io/2017/11/01/quotes-test</id>
    <content type="html">&lt;h1 id=&quot;jekyll-quotes---test&quot;&gt;Jekyll Quotes - Test&lt;/h1&gt;
 
 &lt;h2 id=&quot;normal-quotes&quot;&gt;Normal Quotes&lt;/h2&gt;
@@ -196,9 +196,9 @@ I think i would like to use &lt;code class=&quot;language-plaintext highlighter-
  
  <entry>
    <title>Creating navigation menu in Jekyll</title>
-   <link href="http://localhost:4000/2017/01/03/creating-navigation-menu-in-jekyll"/>
+   <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2017/01/03/creating-navigation-menu-in-jekyll"/>
    <updated>2017-01-03T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2017/01/03/creating-navigation-menu-in-jekyll</id>
+   <id>https://cypherpunksamurai.github.io/2017/01/03/creating-navigation-menu-in-jekyll</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
 
 &lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
@@ -213,9 +213,9 @@ I think i would like to use &lt;code class=&quot;language-plaintext highlighter-
  
  <entry>
    <title>Hello Jekyll</title>
-   <link href="http://localhost:4000/2017/01/01/hello-jekyll"/>
+   <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2017/01/01/hello-jekyll"/>
    <updated>2017-01-01T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2017/01/01/hello-jekyll</id>
+   <id>https://cypherpunksamurai.github.io/2017/01/01/hello-jekyll</id>
    <content type="html">&lt;h1 id=&quot;hello-jekyll-markdown-test&quot;&gt;Hello Jekyll: Markdown Test&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -596,9 +596,9 @@ normal paragraph. For example:&lt;/p&gt;
  
  <entry>
    <title>Structured Data markup validation and testing tools</title>
-   <link href="http://localhost:4000/2016/12/11/structured-data-markup-validation-and-testing-tools"/>
+   <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2016/12/11/structured-data-markup-validation-and-testing-tools"/>
    <updated>2016-12-11T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2016/12/11/structured-data-markup-validation-and-testing-tools</id>
+   <id>https://cypherpunksamurai.github.io/2016/12/11/structured-data-markup-validation-and-testing-tools</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
 
 &lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
@@ -613,9 +613,9 @@ normal paragraph. For example:&lt;/p&gt;
  
  <entry>
    <title>Top monospaced fonts for coding</title>
-   <link href="http://localhost:4000/2016/11/27/top-monospaced-fonts-for-coding"/>
+   <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2016/11/27/top-monospaced-fonts-for-coding"/>
    <updated>2016-11-27T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2016/11/27/top-monospaced-fonts-for-coding</id>
+   <id>https://cypherpunksamurai.github.io/2016/11/27/top-monospaced-fonts-for-coding</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
 
 &lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
@@ -630,9 +630,9 @@ normal paragraph. For example:&lt;/p&gt;
  
  <entry>
    <title>Code Highlight With Line Numbers</title>
-   <link href="http://localhost:4000/2016/02/02/code-highlight-with-linenum"/>
+   <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2016/02/02/code-highlight-with-linenum"/>
    <updated>2016-02-02T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2016/02/02/code-highlight-with-linenum</id>
+   <id>https://cypherpunksamurai.github.io/2016/02/02/code-highlight-with-linenum</id>
    <content type="html">&lt;h1 id=&quot;code-highlight-with-line-numbers&quot;&gt;Code Highlight With Line Numbers&lt;/h1&gt;
 &lt;p&gt;Here is test code&lt;/p&gt;
 
@@ -652,9 +652,9 @@ normal paragraph. For example:&lt;/p&gt;
  
  <entry>
    <title>Code Highlighting</title>
-   <link href="http://localhost:4000/2016/01/02/code-highlighting"/>
+   <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2016/01/02/code-highlighting"/>
    <updated>2016-01-02T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2016/01/02/code-highlighting</id>
+   <id>https://cypherpunksamurai.github.io/2016/01/02/code-highlighting</id>
    <content type="html">&lt;h1 id=&quot;bash&quot;&gt;Bash&lt;/h1&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
@@ -1120,9 +1120,9 @@ normal paragraph. For example:&lt;/p&gt;
  
  <entry>
    <title>Jekyll Headers Test</title>
-   <link href="http://localhost:4000/2016/01/02/headers-test"/>
+   <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2016/01/02/headers-test"/>
    <updated>2016-01-02T00:00:00+00:00</updated>
-   <id>http://localhost:4000/2016/01/02/headers-test</id>
+   <id>https://cypherpunksamurai.github.io/2016/01/02/headers-test</id>
    <content type="html">&lt;h1 id=&quot;headers-test&quot;&gt;Headers Test&lt;/h1&gt;
 &lt;p&gt;This is a test page for testing headers in Jekyll&lt;/p&gt;
 
@@ -1145,9 +1145,9 @@ normal paragraph. For example:&lt;/p&gt;
  
  <entry>
    <title>Places where you can learn how to code</title>
-   <link href="http://localhost:4000/2015/07/31/places-where-you-can-learn-how-to-code"/>
+   <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2015/07/31/places-where-you-can-learn-how-to-code"/>
    <updated>2015-07-31T00:00:00+01:00</updated>
-   <id>http://localhost:4000/2015/07/31/places-where-you-can-learn-how-to-code</id>
+   <id>https://cypherpunksamurai.github.io/2015/07/31/places-where-you-can-learn-how-to-code</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
 
 &lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
@@ -1162,9 +1162,9 @@ normal paragraph. For example:&lt;/p&gt;
  
  <entry>
    <title>CSS hacks you may not know</title>
-   <link href="http://localhost:4000/2014/05/12/css-hacks-you-may-not-know"/>
+   <link href="https://cypherpunksamurai.github.io/Kusa-Jekyll/2014/05/12/css-hacks-you-may-not-know"/>
    <updated>2014-05-12T00:00:00+01:00</updated>
-   <id>http://localhost:4000/2014/05/12/css-hacks-you-may-not-know</id>
+   <id>https://cypherpunksamurai.github.io/2014/05/12/css-hacks-you-may-not-know</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
 
 &lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
